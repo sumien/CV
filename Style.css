@@ -1,0 +1,45 @@
+.page {
+    width: 780px;
+    /* margin: auto; */
+    font-size: 16px;
+
+}
+
+a:hover {
+    background-color: darkblue;
+}
+
+.section {
+
+    text-align: left;
+}
+
+.sec-gauche {
+    font-weight: bold;
+    font-size: 20%;
+}
+
+ul {
+    list-style: none;
+}
+
+.sec-droite {
+    margin: left 150px;
+    text-align: justify;
+}
+
+h4 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    background-color: darkgray;
+    font-size: large;
+}
+br{
+    background-color: darkgray; 
+}
+img{
+    
+}
