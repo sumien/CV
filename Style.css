@@ -1,8 +1,68 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    color: rgb(14, 14, 14);  
+}
+
+/* @media screen and (min-width:1025px) {
+
+    .container {
+        height: 100vh;
+        display: grid;
+        grid-template-columns: repeat (4, 1fr);
+        grid-template-rows: 1fr, 1fr, 8fr, 2fr, 2fr, 3fr;
+        grid-template-areas:
+        
+            "menu menu menu menu"
+            "titre titre titre titre"
+            "contenu contenu contenu contenu"
+            "article1 article1 article2 article2"
+            "image1 image2 image2 image3"
+            "footer footer footer footer";
+    }
+}
+
+@media screen and (max-width:1024px) and (min-width:577px) {
+
+    .container {
+        height: 100vh;
+        display: grid;
+        grid-template-columns: repeat (4, 1fr);
+        grid-template-rows: 1fr, 1fr, 8fr, 2fr, 2fr, 3fr, 3fr, 3fr, 1fr;
+        grid-template-areas:
+            "menu menu menu menu"
+            "titre titre titre titre"
+            "contenu contenu contenu article1"
+            "contenu contenu contenu article1"
+            "contenu contenu contenu article2"
+            "contenu contenu contenu article2"
+            "image1 image2 image2 image3"
+            "footer footer footer footer";
+    }
+}
+
+@media screen and (max-width:576px) {
+
+    .container {
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 5fr;
+        grid-template-rows:  3fr, 8fr, 4fr, 2fr, 2fr, 3fr;
+        grid-template-areas:
+            "titre1 titre1 titre1 titre1 titre1"
+            "titre2 titre2 titre2 titre2 titre2"
+            "image image image image image"
+            "article1 article1 article1 article1 article1"
+            "article2 article2 article2 article2 article2"
+            "article3 article3 article3 article3 article3";
+    }
+} */
+
 .page {
     width: 780px;
     /* margin: auto; */
     font-size: 16px;
-
 }
 
 a:hover {
@@ -28,18 +88,21 @@ ul {
     text-align: justify;
 }
 
-h4 {
-    text-align: center;
-}
-
 p {
     text-align: center;
-    background-color: darkgray;
     font-size: large;
 }
-br{
-    background-color: darkgray; 
+
+body {
+    background-color: cornflowerblue;
+    text-decoration: black;
+    }
+
+.card{
+   background-color: rgba(155, 215, 241, 0.408);
+
 }
-img{
-    
+.card{
+    background-color: rgba(155, 215, 241, 0.408);
 }
+
